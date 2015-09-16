@@ -1,0 +1,10 @@
+cairo -any
+gtk2hs-buildtools -any
+Chart-gtk -any
+chart -any
+palette -any
+csv -any
+cassava -any
+hxt-curl -any
+hxt -any
+diagrams -any

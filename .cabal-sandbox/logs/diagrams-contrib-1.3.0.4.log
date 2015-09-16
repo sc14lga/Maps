@@ -1,0 +1,113 @@
+Configuring diagrams-contrib-1.3.0.4...
+Building diagrams-contrib-1.3.0.4...
+Preprocessing library diagrams-contrib-1.3.0.4...
+[ 1 of 22] Compiling Diagrams.TwoD.Path.Metafont.Types ( src/Diagrams/TwoD/Path/Metafont/Types.hs, dist/dist-sandbox-b0cde968/build/Diagrams/TwoD/Path/Metafont/Types.o )
+Loading package ghc-prim ... linking ... done.
+Loading package integer-gmp ... linking ... done.
+Loading package base ... linking ... done.
+Loading package split-0.2.2 ... linking ... done.
+Loading package array-0.5.0.0 ... linking ... done.
+Loading package deepseq-1.3.0.2 ... linking ... done.
+Loading package bytestring-0.10.4.0 ... linking ... done.
+Loading package transformers-0.4.3.0 ... linking ... done.
+Loading package mtl-2.2.1 ... linking ... done.
+Loading package text-1.1.0.0 ... linking ... done.
+Loading package parsec-3.1.9 ... linking ... done.
+Loading package containers-0.5.5.1 ... linking ... done.
+Loading package data-default-class-0.0.1 ... linking ... done.
+Loading package base-orphans-0.4.0 ... linking ... done.
+Loading package hashable-1.2.2.0 ... linking ... done.
+Loading package nats-1 ... linking ... done.
+Loading package unordered-containers-0.2.4.0 ... linking ... done.
+Loading package semigroups-0.16.2.2 ... linking ... done.
+Loading package pretty-1.1.1.1 ... linking ... done.
+Loading package template-haskell ... linking ... done.
+Loading package tagged-0.8.1 ... linking ... done.
+Loading package bifunctors-5 ... linking ... done.
+Loading package stm-2.4.2 ... linking ... done.
+Loading package StateVar-1.1.0.0 ... linking ... done.
+Loading package transformers-compat-0.4.0.4 ... linking ... done.
+Loading package void-0.7 ... linking ... done.
+Loading package contravariant-1.3.1.1 ... linking ... done.
+Loading package distributive-0.4.4 ... linking ... done.
+Loading package comonad-4.2.6 ... linking ... done.
+Loading package exceptions-0.8.0.2 ... linking ... done.
+Loading package filepath-1.3.0.2 ... linking ... done.
+Loading package prelude-extras-0.4 ... linking ... done.
+Loading package profunctors-5.1.1 ... linking ... done.
+Loading package semigroupoids-5.0.0.2 ... linking ... done.
+Loading package free-4.12.1 ... linking ... done.
+Loading package adjunctions-4.2.1 ... linking ... done.
+Loading package kan-extensions-4.2.2 ... linking ... done.
+Loading package parallel-3.2.0.4 ... linking ... done.
+Loading package reflection-2 ... linking ... done.
+Loading package primitive-0.5.2.1 ... linking ... done.
+Loading package vector-0.10.9.1 ... linking ... done.
+Loading package lens-4.12.1 ... linking ... done.
+Loading package binary-0.7.1.0 ... linking ... done.
+Loading package cereal-0.4.1.1 ... linking ... done.
+Loading package old-locale-1.0.0.6 ... linking ... done.
+Loading package time-1.4.2 ... linking ... done.
+Loading package bytes-0.15.0.1 ... linking ... done.
+Loading package linear-1.19.1.3 ... linking ... done.
+Loading package force-layout-0.4.0.2 ... linking ... done.
+Loading package zlib-0.5.4.1 ... linking ... done.
+Loading package JuicyPixels-3.2.5.2 ... linking ... done.
+Loading package active-0.2.0.4 ... linking ... done.
+Loading package colour-2.3.3 ... linking ... done.
+Loading package groups-0.4.0.0 ... linking ... done.
+Loading package monoid-extras-0.4.0.1 ... linking ... done.
+Loading package newtype-0.2 ... linking ... done.
+Loading package dual-tree-0.2.0.6 ... linking ... done.
+Loading package diagrams-core-1.3.0.2 ... linking ... done.
+Loading package diagrams-solve-0.1 ... linking ... done.
+Loading package unix-2.7.0.1 ... linking ... done.
+Loading package directory-1.2.1.0 ... linking ... done.
+Loading package fingertree-0.1.1.0 ... linking ... done.
+Loading package async-2.0.1.5 ... linking ... done.
+Loading package hfsevents-0.1.5 ... linking ... done.
+Loading package system-filepath-0.4.13.4 ... linking ... done.
+Loading package system-fileio-0.3.16.3 ... linking ... done.
+Loading package fsnotify-0.1.0.3 ... linking ... done.
+Loading package intervals-0.7.1 ... linking ... done.
+Loading package ansi-terminal-0.6.2.1 ... linking ... done.
+Loading package ansi-wl-pprint-0.6.7.2 ... linking ... done.
+Loading package process-1.2.0.0 ... linking ... done.
+Loading package optparse-applicative-0.11.0.2 ... linking ... done.
+Loading package diagrams-lib-1.3.0.2 ... linking ... done.
+Loading package data-default-instances-base-0.0.1 ... linking ... done.
+Loading package data-default-instances-containers-0.0.1 ... linking ... done.
+Loading package dlist-0.7.1.1 ... linking ... done.
+Loading package data-default-instances-dlist-0.0.1 ... linking ... done.
+Loading package data-default-instances-old-locale-0.0.1 ... linking ... done.
+Loading package data-default-0.5.3 ... linking ... done.
+Loading package circle-packing-0.1.0.4 ... linking ... done.
+Loading package random-1.0.1.1 ... linking ... done.
+Loading package MonadRandom-0.4 ... linking ... done.
+[ 2 of 22] Compiling Diagrams.TwoD.Path.Metafont.Parser ( src/Diagrams/TwoD/Path/Metafont/Parser.hs, dist/dist-sandbox-b0cde968/build/Diagrams/TwoD/Path/Metafont/Parser.o )
+[ 3 of 22] Compiling Diagrams.TwoD.Path.Metafont.Internal ( src/Diagrams/TwoD/Path/Metafont/Internal.hs, dist/dist-sandbox-b0cde968/build/Diagrams/TwoD/Path/Metafont/Internal.o )
+[ 4 of 22] Compiling Diagrams.TwoD.Path.Metafont.Combinators ( src/Diagrams/TwoD/Path/Metafont/Combinators.hs, dist/dist-sandbox-b0cde968/build/Diagrams/TwoD/Path/Metafont/Combinators.o )
+[ 5 of 22] Compiling Diagrams.TwoD.Path.Metafont ( src/Diagrams/TwoD/Path/Metafont.hs, dist/dist-sandbox-b0cde968/build/Diagrams/TwoD/Path/Metafont.o )
+[ 6 of 22] Compiling Diagrams.TwoD.Path.Turtle.Internal ( src/Diagrams/TwoD/Path/Turtle/Internal.hs, dist/dist-sandbox-b0cde968/build/Diagrams/TwoD/Path/Turtle/Internal.o )
+[ 7 of 22] Compiling Diagrams.TwoD.Path.Calligraphic ( src/Diagrams/TwoD/Path/Calligraphic.hs, dist/dist-sandbox-b0cde968/build/Diagrams/TwoD/Path/Calligraphic.o )
+[ 8 of 22] Compiling Diagrams.TwoD.Layout.CirclePacking ( src/Diagrams/TwoD/Layout/CirclePacking.hs, dist/dist-sandbox-b0cde968/build/Diagrams/TwoD/Layout/CirclePacking.o )
+[ 9 of 22] Compiling Diagrams.TwoD.Layout.Grid ( src/Diagrams/TwoD/Layout/Grid.hs, dist/dist-sandbox-b0cde968/build/Diagrams/TwoD/Layout/Grid.o )
+[10 of 22] Compiling Diagrams.TwoD.Path.IteratedSubset ( src/Diagrams/TwoD/Path/IteratedSubset.hs, dist/dist-sandbox-b0cde968/build/Diagrams/TwoD/Path/IteratedSubset.o )
+[11 of 22] Compiling Diagrams.TwoD.Sunburst ( src/Diagrams/TwoD/Sunburst.hs, dist/dist-sandbox-b0cde968/build/Diagrams/TwoD/Sunburst.o )
+[12 of 22] Compiling Diagrams.TwoD.Tilings ( src/Diagrams/TwoD/Tilings.hs, dist/dist-sandbox-b0cde968/build/Diagrams/TwoD/Tilings.o )
+[13 of 22] Compiling Diagrams.TwoD.Grid ( src/Diagrams/TwoD/Grid.hs, dist/dist-sandbox-b0cde968/build/Diagrams/TwoD/Grid.o )
+[14 of 22] Compiling Diagrams.TwoD.Factorization ( src/Diagrams/TwoD/Factorization.hs, dist/dist-sandbox-b0cde968/build/Diagrams/TwoD/Factorization.o )
+[15 of 22] Compiling Diagrams.TwoD.Apollonian ( src/Diagrams/TwoD/Apollonian.hs, dist/dist-sandbox-b0cde968/build/Diagrams/TwoD/Apollonian.o )
+[16 of 22] Compiling Diagrams.Lens    ( src/Diagrams/Lens.hs, dist/dist-sandbox-b0cde968/build/Diagrams/Lens.o )
+[17 of 22] Compiling Diagrams.Layout.Wrap ( src/Diagrams/Layout/Wrap.hs, dist/dist-sandbox-b0cde968/build/Diagrams/Layout/Wrap.o )
+[18 of 22] Compiling Diagrams.TwoD.Path.Turtle ( src/Diagrams/TwoD/Path/Turtle.hs, dist/dist-sandbox-b0cde968/build/Diagrams/TwoD/Path/Turtle.o )
+[19 of 22] Compiling Diagrams.TwoD.Path.Turtle.Aliases ( src/Diagrams/TwoD/Path/Turtle/Aliases.hs, dist/dist-sandbox-b0cde968/build/Diagrams/TwoD/Path/Turtle/Aliases.o )
+[20 of 22] Compiling Diagrams.TwoD.Layout.Tree ( src/Diagrams/TwoD/Layout/Tree.hs, dist/dist-sandbox-b0cde968/build/Diagrams/TwoD/Layout/Tree.o )
+[21 of 22] Compiling Diagrams.Example.Logo ( src/Diagrams/Example/Logo.hs, dist/dist-sandbox-b0cde968/build/Diagrams/Example/Logo.o )
+[22 of 22] Compiling Diagrams.Color.HSV ( src/Diagrams/Color/HSV.hs, dist/dist-sandbox-b0cde968/build/Diagrams/Color/HSV.o )
+In-place registering diagrams-contrib-1.3.0.4...
+Creating package registration file:
+/var/folders/c2/0y63zppd5j1d40yyj31b3t3w0000gp/T/pkgConf-diagrams-contrib-1.3.04198.4
+Installing library in
+/Users/Lucia/GitHub/main/maps/.cabal-sandbox/lib/x86_64-osx-ghc-7.8.3/diagrams-contrib-1.3.0.4
+Registering diagrams-contrib-1.3.0.4...

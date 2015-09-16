@@ -1,0 +1,22 @@
+Configuring fsnotify-0.1.0.3...
+Building fsnotify-0.1.0.3...
+Preprocessing library fsnotify-0.1.0.3...
+[1 of 7] Compiling System.FSNotify.Path ( src/System/FSNotify/Path.hs, dist/dist-sandbox-b0cde968/build/System/FSNotify/Path.o )
+[2 of 7] Compiling System.FSNotify.Types ( src/System/FSNotify/Types.hs, dist/dist-sandbox-b0cde968/build/System/FSNotify/Types.o )
+[3 of 7] Compiling System.FSNotify.Listener ( src/System/FSNotify/Listener.hs, dist/dist-sandbox-b0cde968/build/System/FSNotify/Listener.o )
+[4 of 7] Compiling System.FSNotify.OSX ( src/System/FSNotify/OSX.hs, dist/dist-sandbox-b0cde968/build/System/FSNotify/OSX.o )
+
+src/System/FSNotify/OSX.hs:30:34: Warning:
+    Defined but not used: data constructor ‘Recursive’
+
+src/System/FSNotify/OSX.hs:137:46: Warning:
+    Defined but not used: ‘path’
+[5 of 7] Compiling System.FSNotify.Polling ( src/System/FSNotify/Polling.hs, dist/dist-sandbox-b0cde968/build/System/FSNotify/Polling.o )
+[6 of 7] Compiling System.FSNotify  ( src/System/FSNotify.hs, dist/dist-sandbox-b0cde968/build/System/FSNotify.o )
+[7 of 7] Compiling System.FSNotify.Devel ( src/System/FSNotify/Devel.hs, dist/dist-sandbox-b0cde968/build/System/FSNotify/Devel.o )
+In-place registering fsnotify-0.1.0.3...
+Creating package registration file:
+/var/folders/c2/0y63zppd5j1d40yyj31b3t3w0000gp/T/pkgConf-fsnotify-0.1.04198.3
+Installing library in
+/Users/Lucia/GitHub/main/maps/.cabal-sandbox/lib/x86_64-osx-ghc-7.8.3/fsnotify-0.1.0.3
+Registering fsnotify-0.1.0.3...

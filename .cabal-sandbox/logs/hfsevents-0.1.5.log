@@ -1,0 +1,142 @@
+Configuring hfsevents-0.1.5...
+Building hfsevents-0.1.5...
+Preprocessing library hfsevents-0.1.5...
+[1 of 1] Compiling System.OSX.FSEvents ( System/OSX/FSEvents.hs, dist/dist-sandbox-b0cde968/build/System/OSX/FSEvents.o )
+
+cbits/c_fsevents.m:103:1:
+     warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+
+cbits/c_fsevents.m:106:4:
+     warning: 'Gestalt' is deprecated: first deprecated in OS X 10.8 [-Wdeprecated-declarations]
+       Gestalt(gestaltSystemVersionMajor, majorVersion);
+       ^
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/Gestalt.h:123:1:
+     note: 'Gestalt' has been explicitly marked deprecated here
+Gestalt(
+^
+
+cbits/c_fsevents.m:106:12:
+     warning: 'gestaltSystemVersionMajor' is deprecated: first deprecated in OS X 10.8 - Use NSProcessInfo's operatingSystemVersion property instead. [-Wdeprecated-declarations]
+       Gestalt(gestaltSystemVersionMajor, majorVersion);
+               ^
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/Gestalt.h:2076:3:
+     note: 'gestaltSystemVersionMajor' has been explicitly marked deprecated here
+      gestaltSystemVersionMajor     = 'sys1', /* The major system version number; in 10.4.17 this would be the decimal value 10 */
+      ^
+
+cbits/c_fsevents.m:107:4:
+     warning: 'Gestalt' is deprecated: first deprecated in OS X 10.8 [-Wdeprecated-declarations]
+       Gestalt(gestaltSystemVersionMinor, minorVersion);
+       ^
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/Gestalt.h:123:1:
+     note: 'Gestalt' has been explicitly marked deprecated here
+Gestalt(
+^
+
+cbits/c_fsevents.m:107:12:
+     warning: 'gestaltSystemVersionMinor' is deprecated: first deprecated in OS X 10.8 - Use NSProcessInfo's operatingSystemVersion property instead. [-Wdeprecated-declarations]
+       Gestalt(gestaltSystemVersionMinor, minorVersion);
+               ^
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/Gestalt.h:2077:3:
+     note: 'gestaltSystemVersionMinor' has been explicitly marked deprecated here
+      gestaltSystemVersionMinor     = 'sys2', /* The minor system version number; in 10.4.17 this would be the decimal value 4 */
+      ^
+
+cbits/c_fsevents.m:108:4:
+     warning: 'Gestalt' is deprecated: first deprecated in OS X 10.8 [-Wdeprecated-declarations]
+       Gestalt(gestaltSystemVersionBugFix, bugFixVersion);
+       ^
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/Gestalt.h:123:1:
+     note: 'Gestalt' has been explicitly marked deprecated here
+Gestalt(
+^
+
+cbits/c_fsevents.m:108:12:
+     warning: 'gestaltSystemVersionBugFix' is deprecated: first deprecated in OS X 10.8 - Use NSProcessInfo's operatingSystemVersion property instead. [-Wdeprecated-declarations]
+       Gestalt(gestaltSystemVersionBugFix, bugFixVersion);
+               ^
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/Gestalt.h:2078:3:
+     note: 'gestaltSystemVersionBugFix' has been explicitly marked deprecated here
+      gestaltSystemVersionBugFix    = 'sys3' /* The bug fix system version number; in 10.4.17 this would be the decimal value 17 */
+      ^
+7 warnings generated.
+
+cbits/c_fsevents.m:103:1:
+     warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+
+cbits/c_fsevents.m:106:4:
+     warning: 'Gestalt' is deprecated: first deprecated in OS X 10.8 [-Wdeprecated-declarations]
+       Gestalt(gestaltSystemVersionMajor, majorVersion);
+       ^
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/Gestalt.h:123:1:
+     note: 'Gestalt' has been explicitly marked deprecated here
+Gestalt(
+^
+
+cbits/c_fsevents.m:106:12:
+     warning: 'gestaltSystemVersionMajor' is deprecated: first deprecated in OS X 10.8 - Use NSProcessInfo's operatingSystemVersion property instead. [-Wdeprecated-declarations]
+       Gestalt(gestaltSystemVersionMajor, majorVersion);
+               ^
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/Gestalt.h:2076:3:
+     note: 'gestaltSystemVersionMajor' has been explicitly marked deprecated here
+      gestaltSystemVersionMajor     = 'sys1', /* The major system version number; in 10.4.17 this would be the decimal value 10 */
+      ^
+
+cbits/c_fsevents.m:107:4:
+     warning: 'Gestalt' is deprecated: first deprecated in OS X 10.8 [-Wdeprecated-declarations]
+       Gestalt(gestaltSystemVersionMinor, minorVersion);
+       ^
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/Gestalt.h:123:1:
+     note: 'Gestalt' has been explicitly marked deprecated here
+Gestalt(
+^
+
+cbits/c_fsevents.m:107:12:
+     warning: 'gestaltSystemVersionMinor' is deprecated: first deprecated in OS X 10.8 - Use NSProcessInfo's operatingSystemVersion property instead. [-Wdeprecated-declarations]
+       Gestalt(gestaltSystemVersionMinor, minorVersion);
+               ^
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/Gestalt.h:2077:3:
+     note: 'gestaltSystemVersionMinor' has been explicitly marked deprecated here
+      gestaltSystemVersionMinor     = 'sys2', /* The minor system version number; in 10.4.17 this would be the decimal value 4 */
+      ^
+
+cbits/c_fsevents.m:108:4:
+     warning: 'Gestalt' is deprecated: first deprecated in OS X 10.8 [-Wdeprecated-declarations]
+       Gestalt(gestaltSystemVersionBugFix, bugFixVersion);
+       ^
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/Gestalt.h:123:1:
+     note: 'Gestalt' has been explicitly marked deprecated here
+Gestalt(
+^
+
+cbits/c_fsevents.m:108:12:
+     warning: 'gestaltSystemVersionBugFix' is deprecated: first deprecated in OS X 10.8 - Use NSProcessInfo's operatingSystemVersion property instead. [-Wdeprecated-declarations]
+       Gestalt(gestaltSystemVersionBugFix, bugFixVersion);
+               ^
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/Gestalt.h:2078:3:
+     note: 'gestaltSystemVersionBugFix' has been explicitly marked deprecated here
+      gestaltSystemVersionBugFix    = 'sys3' /* The bug fix system version number; in 10.4.17 this would be the decimal value 17 */
+      ^
+7 warnings generated.
+In-place registering hfsevents-0.1.5...
+Creating package registration file:
+/var/folders/c2/0y63zppd5j1d40yyj31b3t3w0000gp/T/pkgConf-hfsevents-0.14198.5
+Installing library in
+/Users/Lucia/GitHub/main/maps/.cabal-sandbox/lib/x86_64-osx-ghc-7.8.3/hfsevents-0.1.5
+Registering hfsevents-0.1.5...

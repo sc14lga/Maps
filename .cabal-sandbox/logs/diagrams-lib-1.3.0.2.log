@@ -1,0 +1,150 @@
+Configuring diagrams-lib-1.3.0.2...
+Building diagrams-lib-1.3.0.2...
+Preprocessing library diagrams-lib-1.3.0.2...
+[ 1 of 72] Compiling Diagrams.ThreeD.Attributes ( src/Diagrams/ThreeD/Attributes.hs, dist/dist-sandbox-b0cde968/build/Diagrams/ThreeD/Attributes.o )
+Loading package ghc-prim ... linking ... done.
+Loading package integer-gmp ... linking ... done.
+Loading package base ... linking ... done.
+Loading package array-0.5.0.0 ... linking ... done.
+Loading package deepseq-1.3.0.2 ... linking ... done.
+Loading package bytestring-0.10.4.0 ... linking ... done.
+Loading package old-locale-1.0.0.6 ... linking ... done.
+Loading package time-1.4.2 ... linking ... done.
+Loading package unix-2.7.0.1 ... linking ... done.
+Loading package ansi-terminal-0.6.2.1 ... linking ... done.
+Loading package ansi-wl-pprint-0.6.7.2 ... linking ... done.
+Loading package filepath-1.3.0.2 ... linking ... done.
+Loading package directory-1.2.1.0 ... linking ... done.
+Loading package process-1.2.0.0 ... linking ... done.
+Loading package transformers-0.4.3.0 ... linking ... done.
+Loading package transformers-compat-0.4.0.4 ... linking ... done.
+Loading package optparse-applicative-0.11.0.2 ... linking ... done.
+Loading package containers-0.5.5.1 ... linking ... done.
+Loading package pretty-1.1.1.1 ... linking ... done.
+Loading package template-haskell ... linking ... done.
+Loading package tagged-0.8.1 ... linking ... done.
+Loading package distributive-0.4.4 ... linking ... done.
+Loading package intervals-0.7.1 ... linking ... done.
+Loading package stm-2.4.2 ... linking ... done.
+Loading package async-2.0.1.5 ... linking ... done.
+Loading package cereal-0.4.1.1 ... linking ... done.
+Loading package mtl-2.2.1 ... linking ... done.
+Loading package text-1.1.0.0 ... linking ... done.
+Loading package hfsevents-0.1.5 ... linking ... done.
+Loading package system-filepath-0.4.13.4 ... linking ... done.
+Loading package system-fileio-0.3.16.3 ... linking ... done.
+Loading package fsnotify-0.1.0.3 ... linking ... done.
+Loading package fingertree-0.1.1.0 ... linking ... done.
+Loading package diagrams-solve-0.1 ... linking ... done.
+Loading package StateVar-1.1.0.0 ... linking ... done.
+Loading package hashable-1.2.2.0 ... linking ... done.
+Loading package nats-1 ... linking ... done.
+Loading package unordered-containers-0.2.4.0 ... linking ... done.
+Loading package semigroups-0.16.2.2 ... linking ... done.
+Loading package void-0.7 ... linking ... done.
+Loading package contravariant-1.3.1.1 ... linking ... done.
+Loading package comonad-4.2.6 ... linking ... done.
+Loading package bifunctors-5 ... linking ... done.
+Loading package exceptions-0.8.0.2 ... linking ... done.
+Loading package prelude-extras-0.4 ... linking ... done.
+Loading package profunctors-5.1.1 ... linking ... done.
+Loading package base-orphans-0.4.0 ... linking ... done.
+Loading package semigroupoids-5.0.0.2 ... linking ... done.
+Loading package free-4.12.1 ... linking ... done.
+Loading package adjunctions-4.2.1 ... linking ... done.
+Loading package groups-0.4.0.0 ... linking ... done.
+Loading package monoid-extras-0.4.0.1 ... linking ... done.
+Loading package newtype-0.2 ... linking ... done.
+Loading package dual-tree-0.2.0.6 ... linking ... done.
+Loading package kan-extensions-4.2.2 ... linking ... done.
+Loading package parallel-3.2.0.4 ... linking ... done.
+Loading package reflection-2 ... linking ... done.
+Loading package primitive-0.5.2.1 ... linking ... done.
+Loading package vector-0.10.9.1 ... linking ... done.
+Loading package lens-4.12.1 ... linking ... done.
+Loading package binary-0.7.1.0 ... linking ... done.
+Loading package bytes-0.15.0.1 ... linking ... done.
+Loading package linear-1.19.1.3 ... linking ... done.
+Loading package diagrams-core-1.3.0.2 ... linking ... done.
+Loading package data-default-class-0.0.1 ... linking ... done.
+Loading package colour-2.3.3 ... linking ... done.
+Loading package active-0.2.0.4 ... linking ... done.
+Loading package zlib-0.5.4.1 ... linking ... done.
+Loading package JuicyPixels-3.2.5.2 ... linking ... done.
+[ 2 of 72] Compiling Diagrams.CubicSpline.Internal ( src/Diagrams/CubicSpline/Internal.hs, dist/dist-sandbox-b0cde968/build/Diagrams/CubicSpline/Internal.o )
+[ 3 of 72] Compiling Diagrams.Attributes.Compile ( src/Diagrams/Attributes/Compile.hs, dist/dist-sandbox-b0cde968/build/Diagrams/Attributes/Compile.o )
+[ 4 of 72] Compiling Diagrams.Util    ( src/Diagrams/Util.hs, dist/dist-sandbox-b0cde968/build/Diagrams/Util.o )
+[ 5 of 72] Compiling Diagrams.Points  ( src/Diagrams/Points.hs, dist/dist-sandbox-b0cde968/build/Diagrams/Points.o )
+[ 6 of 72] Compiling Diagrams.Angle   ( src/Diagrams/Angle.hs, dist/dist-sandbox-b0cde968/build/Diagrams/Angle.o )
+[ 7 of 72] Compiling Diagrams.Direction ( src/Diagrams/Direction.hs, dist/dist-sandbox-b0cde968/build/Diagrams/Direction.o )
+[ 8 of 72] Compiling Diagrams.Coordinates ( src/Diagrams/Coordinates.hs, dist/dist-sandbox-b0cde968/build/Diagrams/Coordinates.o )
+[ 9 of 72] Compiling Diagrams.TwoD.Types ( src/Diagrams/TwoD/Types.hs, dist/dist-sandbox-b0cde968/build/Diagrams/TwoD/Types.o )
+[10 of 72] Compiling Diagrams.TwoD.Vector ( src/Diagrams/TwoD/Vector.hs, dist/dist-sandbox-b0cde968/build/Diagrams/TwoD/Vector.o )
+[11 of 72] Compiling Diagrams.TwoD.Points ( src/Diagrams/TwoD/Points.hs, dist/dist-sandbox-b0cde968/build/Diagrams/TwoD/Points.o )
+[12 of 72] Compiling Diagrams.ThreeD.Types ( src/Diagrams/ThreeD/Types.hs, dist/dist-sandbox-b0cde968/build/Diagrams/ThreeD/Types.o )
+[13 of 72] Compiling Diagrams.ThreeD.Light ( src/Diagrams/ThreeD/Light.hs, dist/dist-sandbox-b0cde968/build/Diagrams/ThreeD/Light.o )
+[14 of 72] Compiling Diagrams.ThreeD.Vector ( src/Diagrams/ThreeD/Vector.hs, dist/dist-sandbox-b0cde968/build/Diagrams/ThreeD/Vector.o )
+[15 of 72] Compiling Diagrams.ThreeD.Shapes ( src/Diagrams/ThreeD/Shapes.hs, dist/dist-sandbox-b0cde968/build/Diagrams/ThreeD/Shapes.o )
+[16 of 72] Compiling Diagrams.ThreeD.Camera ( src/Diagrams/ThreeD/Camera.hs, dist/dist-sandbox-b0cde968/build/Diagrams/ThreeD/Camera.o )
+[17 of 72] Compiling Diagrams.Transform.Matrix ( src/Diagrams/Transform/Matrix.hs, dist/dist-sandbox-b0cde968/build/Diagrams/Transform/Matrix.o )
+[18 of 72] Compiling Diagrams.Query   ( src/Diagrams/Query.hs, dist/dist-sandbox-b0cde968/build/Diagrams/Query.o )
+[19 of 72] Compiling Diagrams.Names   ( src/Diagrams/Names.hs, dist/dist-sandbox-b0cde968/build/Diagrams/Names.o )
+[20 of 72] Compiling Diagrams.Transform ( src/Diagrams/Transform.hs, dist/dist-sandbox-b0cde968/build/Diagrams/Transform.o )
+[21 of 72] Compiling Diagrams.TwoD.Transform ( src/Diagrams/TwoD/Transform.hs, dist/dist-sandbox-b0cde968/build/Diagrams/TwoD/Transform.o )
+[22 of 72] Compiling Diagrams.ThreeD.Transform ( src/Diagrams/ThreeD/Transform.hs, dist/dist-sandbox-b0cde968/build/Diagrams/ThreeD/Transform.o )
+[23 of 72] Compiling Diagrams.Transform.ScaleInv ( src/Diagrams/Transform/ScaleInv.hs, dist/dist-sandbox-b0cde968/build/Diagrams/Transform/ScaleInv.o )
+[24 of 72] Compiling Diagrams.Parametric ( src/Diagrams/Parametric.hs, dist/dist-sandbox-b0cde968/build/Diagrams/Parametric.o )
+[25 of 72] Compiling Diagrams.Parametric.Adjust ( src/Diagrams/Parametric/Adjust.hs, dist/dist-sandbox-b0cde968/build/Diagrams/Parametric/Adjust.o )
+[26 of 72] Compiling Diagrams.TwoD.Segment.Bernstein ( src/Diagrams/TwoD/Segment/Bernstein.hs, dist/dist-sandbox-b0cde968/build/Diagrams/TwoD/Segment/Bernstein.o )
+[27 of 72] Compiling Diagrams.Located ( src/Diagrams/Located.hs, dist/dist-sandbox-b0cde968/build/Diagrams/Located.o )
+[28 of 72] Compiling Diagrams.Segment ( src/Diagrams/Segment.hs, dist/dist-sandbox-b0cde968/build/Diagrams/Segment.o )
+[29 of 72] Compiling Diagrams.Tangent ( src/Diagrams/Tangent.hs, dist/dist-sandbox-b0cde968/build/Diagrams/Tangent.o )
+[30 of 72] Compiling Diagrams.Trail   ( src/Diagrams/Trail.hs, dist/dist-sandbox-b0cde968/build/Diagrams/Trail.o )
+[31 of 72] Compiling Diagrams.TwoD.Curvature ( src/Diagrams/TwoD/Curvature.hs, dist/dist-sandbox-b0cde968/build/Diagrams/TwoD/Curvature.o )
+[32 of 72] Compiling Diagrams.TrailLike ( src/Diagrams/TrailLike.hs, dist/dist-sandbox-b0cde968/build/Diagrams/TrailLike.o )
+[33 of 72] Compiling Diagrams.Animation.Active ( src/Diagrams/Animation/Active.hs, dist/dist-sandbox-b0cde968/build/Diagrams/Animation/Active.o )
+[34 of 72] Compiling Diagrams.CubicSpline ( src/Diagrams/CubicSpline.hs, dist/dist-sandbox-b0cde968/build/Diagrams/CubicSpline.o )
+[35 of 72] Compiling Diagrams.TwoD.Arc ( src/Diagrams/TwoD/Arc.hs, dist/dist-sandbox-b0cde968/build/Diagrams/TwoD/Arc.o )
+[36 of 72] Compiling Diagrams.TwoD.Ellipse ( src/Diagrams/TwoD/Ellipse.hs, dist/dist-sandbox-b0cde968/build/Diagrams/TwoD/Ellipse.o )
+[37 of 72] Compiling Diagrams.TwoD.Segment ( src/Diagrams/TwoD/Segment.hs, dist/dist-sandbox-b0cde968/build/Diagrams/TwoD/Segment.o )
+[38 of 72] Compiling Diagrams.Combinators ( src/Diagrams/Combinators.hs, dist/dist-sandbox-b0cde968/build/Diagrams/Combinators.o )
+[39 of 72] Compiling Diagrams.Envelope ( src/Diagrams/Envelope.hs, dist/dist-sandbox-b0cde968/build/Diagrams/Envelope.o )
+[40 of 72] Compiling Diagrams.Trace   ( src/Diagrams/Trace.hs, dist/dist-sandbox-b0cde968/build/Diagrams/Trace.o )
+[41 of 72] Compiling Diagrams.Align   ( src/Diagrams/Align.hs, dist/dist-sandbox-b0cde968/build/Diagrams/Align.o )
+[42 of 72] Compiling Diagrams.Path    ( src/Diagrams/Path.hs, dist/dist-sandbox-b0cde968/build/Diagrams/Path.o )
+[43 of 72] Compiling Diagrams.Deform  ( src/Diagrams/Deform.hs, dist/dist-sandbox-b0cde968/build/Diagrams/Deform.o )
+[44 of 72] Compiling Diagrams.TwoD.Deform ( src/Diagrams/TwoD/Deform.hs, dist/dist-sandbox-b0cde968/build/Diagrams/TwoD/Deform.o )
+[45 of 72] Compiling Diagrams.ThreeD.Deform ( src/Diagrams/ThreeD/Deform.hs, dist/dist-sandbox-b0cde968/build/Diagrams/ThreeD/Deform.o )
+[46 of 72] Compiling Diagrams.TwoD.Path ( src/Diagrams/TwoD/Path.hs, dist/dist-sandbox-b0cde968/build/Diagrams/TwoD/Path.o )
+[47 of 72] Compiling Diagrams.LinearMap ( src/Diagrams/LinearMap.hs, dist/dist-sandbox-b0cde968/build/Diagrams/LinearMap.o )
+[48 of 72] Compiling Diagrams.ThreeD.Projection ( src/Diagrams/ThreeD/Projection.hs, dist/dist-sandbox-b0cde968/build/Diagrams/ThreeD/Projection.o )
+[49 of 72] Compiling Diagrams.TwoD.Polygons ( src/Diagrams/TwoD/Polygons.hs, dist/dist-sandbox-b0cde968/build/Diagrams/TwoD/Polygons.o )
+[50 of 72] Compiling Diagrams.TwoD.Shapes ( src/Diagrams/TwoD/Shapes.hs, dist/dist-sandbox-b0cde968/build/Diagrams/TwoD/Shapes.o )
+[51 of 72] Compiling Diagrams.BoundingBox ( src/Diagrams/BoundingBox.hs, dist/dist-sandbox-b0cde968/build/Diagrams/BoundingBox.o )
+[52 of 72] Compiling Diagrams.Size    ( src/Diagrams/Size.hs, dist/dist-sandbox-b0cde968/build/Diagrams/Size.o )
+[53 of 72] Compiling Diagrams.TwoD.Size ( src/Diagrams/TwoD/Size.hs, dist/dist-sandbox-b0cde968/build/Diagrams/TwoD/Size.o )
+[54 of 72] Compiling Diagrams.ThreeD.Size ( src/Diagrams/ThreeD/Size.hs, dist/dist-sandbox-b0cde968/build/Diagrams/ThreeD/Size.o )
+[55 of 72] Compiling Diagrams.Animation ( src/Diagrams/Animation.hs, dist/dist-sandbox-b0cde968/build/Diagrams/Animation.o )
+[56 of 72] Compiling Diagrams.TwoD.Align ( src/Diagrams/TwoD/Align.hs, dist/dist-sandbox-b0cde968/build/Diagrams/TwoD/Align.o )
+[57 of 72] Compiling Diagrams.ThreeD.Align ( src/Diagrams/ThreeD/Align.hs, dist/dist-sandbox-b0cde968/build/Diagrams/ThreeD/Align.o )
+[58 of 72] Compiling Diagrams.ThreeD  ( src/Diagrams/ThreeD.hs, dist/dist-sandbox-b0cde968/build/Diagrams/ThreeD.o )
+[59 of 72] Compiling Diagrams.TwoD.Arrowheads ( src/Diagrams/TwoD/Arrowheads.hs, dist/dist-sandbox-b0cde968/build/Diagrams/TwoD/Arrowheads.o )
+[60 of 72] Compiling Diagrams.Attributes ( src/Diagrams/Attributes.hs, dist/dist-sandbox-b0cde968/build/Diagrams/Attributes.o )
+[61 of 72] Compiling Diagrams.Backend.CmdLine ( src/Diagrams/Backend/CmdLine.hs, dist/dist-sandbox-b0cde968/build/Diagrams/Backend/CmdLine.o )
+[62 of 72] Compiling Diagrams.TwoD.Attributes ( src/Diagrams/TwoD/Attributes.hs, dist/dist-sandbox-b0cde968/build/Diagrams/TwoD/Attributes.o )
+[63 of 72] Compiling Diagrams.TwoD.Arrow ( src/Diagrams/TwoD/Arrow.hs, dist/dist-sandbox-b0cde968/build/Diagrams/TwoD/Arrow.o )
+[64 of 72] Compiling Diagrams.TwoD.Combinators ( src/Diagrams/TwoD/Combinators.hs, dist/dist-sandbox-b0cde968/build/Diagrams/TwoD/Combinators.o )
+[65 of 72] Compiling Diagrams.TwoD.Image ( src/Diagrams/TwoD/Image.hs, dist/dist-sandbox-b0cde968/build/Diagrams/TwoD/Image.o )
+[66 of 72] Compiling Diagrams.TwoD.Text ( src/Diagrams/TwoD/Text.hs, dist/dist-sandbox-b0cde968/build/Diagrams/TwoD/Text.o )
+[67 of 72] Compiling Diagrams.TwoD.Model ( src/Diagrams/TwoD/Model.hs, dist/dist-sandbox-b0cde968/build/Diagrams/TwoD/Model.o )
+[68 of 72] Compiling Diagrams.TwoD    ( src/Diagrams/TwoD.hs, dist/dist-sandbox-b0cde968/build/Diagrams/TwoD.o )
+[69 of 72] Compiling Diagrams.TwoD.Adjust ( src/Diagrams/TwoD/Adjust.hs, dist/dist-sandbox-b0cde968/build/Diagrams/TwoD/Adjust.o )
+[70 of 72] Compiling Diagrams.TwoD.Offset ( src/Diagrams/TwoD/Offset.hs, dist/dist-sandbox-b0cde968/build/Diagrams/TwoD/Offset.o )
+[71 of 72] Compiling Diagrams         ( src/Diagrams.hs, dist/dist-sandbox-b0cde968/build/Diagrams.o )
+[72 of 72] Compiling Diagrams.Prelude ( src/Diagrams/Prelude.hs, dist/dist-sandbox-b0cde968/build/Diagrams/Prelude.o )
+In-place registering diagrams-lib-1.3.0.2...
+Creating package registration file:
+/var/folders/c2/0y63zppd5j1d40yyj31b3t3w0000gp/T/pkgConf-diagrams-lib-1.3.04198.2
+Installing library in
+/Users/Lucia/GitHub/main/maps/.cabal-sandbox/lib/x86_64-osx-ghc-7.8.3/diagrams-lib-1.3.0.2
+Registering diagrams-lib-1.3.0.2...

@@ -1,0 +1,90 @@
+Configuring Chart-1.5.1...
+Building Chart-1.5.1...
+Preprocessing library Chart-1.5.1...
+[ 1 of 36] Compiling Numeric.Histogram ( Numeric/Histogram.hs, dist/dist-sandbox-b0cde968/build/Numeric/Histogram.o )
+[ 2 of 36] Compiling Graphics.Rendering.Chart.Utils ( Graphics/Rendering/Chart/Utils.hs, dist/dist-sandbox-b0cde968/build/Graphics/Rendering/Chart/Utils.o )
+[ 3 of 36] Compiling Graphics.Rendering.Chart.Geometry ( Graphics/Rendering/Chart/Geometry.hs, dist/dist-sandbox-b0cde968/build/Graphics/Rendering/Chart/Geometry.o )
+[ 4 of 36] Compiling Graphics.Rendering.Chart.Backend.Types ( Graphics/Rendering/Chart/Backend/Types.hs, dist/dist-sandbox-b0cde968/build/Graphics/Rendering/Chart/Backend/Types.o )
+Loading package ghc-prim ... linking ... done.
+Loading package integer-gmp ... linking ... done.
+Loading package base ... linking ... done.
+Loading package transformers-0.4.3.0 ... linking ... done.
+Loading package mtl-2.2.1 ... linking ... done.
+Loading package array-0.5.0.0 ... linking ... done.
+Loading package deepseq-1.3.0.2 ... linking ... done.
+Loading package old-locale-1.0.0.6 ... linking ... done.
+Loading package time-1.4.2 ... linking ... done.
+Loading package random-1.0.1.1 ... linking ... done.
+Loading package operational-0.2.3.2 ... linking ... done.
+Loading package base-orphans-0.4.0 ... linking ... done.
+Loading package bytestring-0.10.4.0 ... linking ... done.
+Loading package containers-0.5.5.1 ... linking ... done.
+Loading package text-1.1.0.0 ... linking ... done.
+Loading package hashable-1.2.2.0 ... linking ... done.
+Loading package nats-1 ... linking ... done.
+Loading package unordered-containers-0.2.4.0 ... linking ... done.
+Loading package semigroups-0.16.2.2 ... linking ... done.
+Loading package pretty-1.1.1.1 ... linking ... done.
+Loading package template-haskell ... linking ... done.
+Loading package tagged-0.8.1 ... linking ... done.
+Loading package bifunctors-5 ... linking ... done.
+Loading package stm-2.4.2 ... linking ... done.
+Loading package StateVar-1.1.0.0 ... linking ... done.
+Loading package transformers-compat-0.4.0.4 ... linking ... done.
+Loading package void-0.7 ... linking ... done.
+Loading package contravariant-1.3.1.1 ... linking ... done.
+Loading package distributive-0.4.4 ... linking ... done.
+Loading package comonad-4.2.6 ... linking ... done.
+Loading package exceptions-0.8.0.2 ... linking ... done.
+Loading package filepath-1.3.0.2 ... linking ... done.
+Loading package prelude-extras-0.4 ... linking ... done.
+Loading package profunctors-5.1.1 ... linking ... done.
+Loading package semigroupoids-5.0.0.2 ... linking ... done.
+Loading package free-4.12.1 ... linking ... done.
+Loading package adjunctions-4.2.1 ... linking ... done.
+Loading package kan-extensions-4.2.2 ... linking ... done.
+Loading package parallel-3.2.0.4 ... linking ... done.
+Loading package reflection-2 ... linking ... done.
+Loading package primitive-0.5.2.1 ... linking ... done.
+Loading package vector-0.10.9.1 ... linking ... done.
+Loading package lens-4.12.1 ... linking ... done.
+Loading package data-default-class-0.0.1 ... linking ... done.
+Loading package colour-2.3.3 ... linking ... done.
+[ 5 of 36] Compiling Graphics.Rendering.Chart.Backend.Impl ( Graphics/Rendering/Chart/Backend/Impl.hs, dist/dist-sandbox-b0cde968/build/Graphics/Rendering/Chart/Backend/Impl.o )
+[ 6 of 36] Compiling Graphics.Rendering.Chart.Backend ( Graphics/Rendering/Chart/Backend.hs, dist/dist-sandbox-b0cde968/build/Graphics/Rendering/Chart/Backend.o )
+[ 7 of 36] Compiling Graphics.Rendering.Chart.Drawing ( Graphics/Rendering/Chart/Drawing.hs, dist/dist-sandbox-b0cde968/build/Graphics/Rendering/Chart/Drawing.o )
+[ 8 of 36] Compiling Graphics.Rendering.Chart.Renderable ( Graphics/Rendering/Chart/Renderable.hs, dist/dist-sandbox-b0cde968/build/Graphics/Rendering/Chart/Renderable.o )
+[ 9 of 36] Compiling Graphics.Rendering.Chart.Axis.Types ( Graphics/Rendering/Chart/Axis/Types.hs, dist/dist-sandbox-b0cde968/build/Graphics/Rendering/Chart/Axis/Types.o )
+[10 of 36] Compiling Graphics.Rendering.Chart.Axis.Floating ( Graphics/Rendering/Chart/Axis/Floating.hs, dist/dist-sandbox-b0cde968/build/Graphics/Rendering/Chart/Axis/Floating.o )
+[11 of 36] Compiling Graphics.Rendering.Chart.Axis.Int ( Graphics/Rendering/Chart/Axis/Int.hs, dist/dist-sandbox-b0cde968/build/Graphics/Rendering/Chart/Axis/Int.o )
+[12 of 36] Compiling Graphics.Rendering.Chart.Axis.LocalTime ( Graphics/Rendering/Chart/Axis/LocalTime.hs, dist/dist-sandbox-b0cde968/build/Graphics/Rendering/Chart/Axis/LocalTime.o )
+[13 of 36] Compiling Graphics.Rendering.Chart.Axis.Unit ( Graphics/Rendering/Chart/Axis/Unit.hs, dist/dist-sandbox-b0cde968/build/Graphics/Rendering/Chart/Axis/Unit.o )
+[14 of 36] Compiling Graphics.Rendering.Chart.Axis.Indexed ( Graphics/Rendering/Chart/Axis/Indexed.hs, dist/dist-sandbox-b0cde968/build/Graphics/Rendering/Chart/Axis/Indexed.o )
+[15 of 36] Compiling Graphics.Rendering.Chart.Axis ( Graphics/Rendering/Chart/Axis.hs, dist/dist-sandbox-b0cde968/build/Graphics/Rendering/Chart/Axis.o )
+[16 of 36] Compiling Graphics.Rendering.Chart.Grid ( Graphics/Rendering/Chart/Grid.hs, dist/dist-sandbox-b0cde968/build/Graphics/Rendering/Chart/Grid.o )
+[17 of 36] Compiling Graphics.Rendering.Chart.Legend ( Graphics/Rendering/Chart/Legend.hs, dist/dist-sandbox-b0cde968/build/Graphics/Rendering/Chart/Legend.o )
+[18 of 36] Compiling Graphics.Rendering.Chart.Plot.Types ( Graphics/Rendering/Chart/Plot/Types.hs, dist/dist-sandbox-b0cde968/build/Graphics/Rendering/Chart/Plot/Types.o )
+[19 of 36] Compiling Graphics.Rendering.Chart.Plot.Hidden ( Graphics/Rendering/Chart/Plot/Hidden.hs, dist/dist-sandbox-b0cde968/build/Graphics/Rendering/Chart/Plot/Hidden.o )
+[20 of 36] Compiling Graphics.Rendering.Chart.Plot.Lines ( Graphics/Rendering/Chart/Plot/Lines.hs, dist/dist-sandbox-b0cde968/build/Graphics/Rendering/Chart/Plot/Lines.o )
+[21 of 36] Compiling Graphics.Rendering.Chart.Plot.Vectors ( Graphics/Rendering/Chart/Plot/Vectors.hs, dist/dist-sandbox-b0cde968/build/Graphics/Rendering/Chart/Plot/Vectors.o )
+[22 of 36] Compiling Graphics.Rendering.Chart.Plot.Points ( Graphics/Rendering/Chart/Plot/Points.hs, dist/dist-sandbox-b0cde968/build/Graphics/Rendering/Chart/Plot/Points.o )
+[23 of 36] Compiling Graphics.Rendering.Chart.Plot.FillBetween ( Graphics/Rendering/Chart/Plot/FillBetween.hs, dist/dist-sandbox-b0cde968/build/Graphics/Rendering/Chart/Plot/FillBetween.o )
+[24 of 36] Compiling Graphics.Rendering.Chart.Plot.ErrBars ( Graphics/Rendering/Chart/Plot/ErrBars.hs, dist/dist-sandbox-b0cde968/build/Graphics/Rendering/Chart/Plot/ErrBars.o )
+[25 of 36] Compiling Graphics.Rendering.Chart.Plot.Candle ( Graphics/Rendering/Chart/Plot/Candle.hs, dist/dist-sandbox-b0cde968/build/Graphics/Rendering/Chart/Plot/Candle.o )
+[26 of 36] Compiling Graphics.Rendering.Chart.Plot.Bars ( Graphics/Rendering/Chart/Plot/Bars.hs, dist/dist-sandbox-b0cde968/build/Graphics/Rendering/Chart/Plot/Bars.o )
+[27 of 36] Compiling Graphics.Rendering.Chart.Plot.Annotation ( Graphics/Rendering/Chart/Plot/Annotation.hs, dist/dist-sandbox-b0cde968/build/Graphics/Rendering/Chart/Plot/Annotation.o )
+[28 of 36] Compiling Graphics.Rendering.Chart.Plot.AreaSpots ( Graphics/Rendering/Chart/Plot/AreaSpots.hs, dist/dist-sandbox-b0cde968/build/Graphics/Rendering/Chart/Plot/AreaSpots.o )
+[29 of 36] Compiling Graphics.Rendering.Chart.Plot.Pie ( Graphics/Rendering/Chart/Plot/Pie.hs, dist/dist-sandbox-b0cde968/build/Graphics/Rendering/Chart/Plot/Pie.o )
+[30 of 36] Compiling Graphics.Rendering.Chart.Plot.Histogram ( Graphics/Rendering/Chart/Plot/Histogram.hs, dist/dist-sandbox-b0cde968/build/Graphics/Rendering/Chart/Plot/Histogram.o )
+[31 of 36] Compiling Graphics.Rendering.Chart.Plot ( Graphics/Rendering/Chart/Plot.hs, dist/dist-sandbox-b0cde968/build/Graphics/Rendering/Chart/Plot.o )
+[32 of 36] Compiling Graphics.Rendering.Chart.Layout ( Graphics/Rendering/Chart/Layout.hs, dist/dist-sandbox-b0cde968/build/Graphics/Rendering/Chart/Layout.o )
+[33 of 36] Compiling Graphics.Rendering.Chart.SparkLine ( Graphics/Rendering/Chart/SparkLine.hs, dist/dist-sandbox-b0cde968/build/Graphics/Rendering/Chart/SparkLine.o )
+[34 of 36] Compiling Graphics.Rendering.Chart.State ( Graphics/Rendering/Chart/State.hs, dist/dist-sandbox-b0cde968/build/Graphics/Rendering/Chart/State.o )
+[35 of 36] Compiling Graphics.Rendering.Chart ( Graphics/Rendering/Chart.hs, dist/dist-sandbox-b0cde968/build/Graphics/Rendering/Chart.o )
+[36 of 36] Compiling Graphics.Rendering.Chart.Easy ( Graphics/Rendering/Chart/Easy.hs, dist/dist-sandbox-b0cde968/build/Graphics/Rendering/Chart/Easy.o )
+In-place registering Chart-1.5.1...
+Creating package registration file:
+/var/folders/c2/0y63zppd5j1d40yyj31b3t3w0000gp/T/pkgConf-Chart-1.5671.1
+Installing library in
+/Users/Lucia/GitHub/main/maps/.cabal-sandbox/lib/x86_64-osx-ghc-7.8.3/Chart-1.5.1
+Registering Chart-1.5.1...

@@ -1,0 +1,77 @@
+[1 of 1] Compiling Main             ( /var/folders/c2/0y63zppd5j1d40yyj31b3t3w0000gp/T/cabal-tmp-4198/linear-1.19.1.3/dist/dist-sandbox-b0cde968/setup/setup.hs, /var/folders/c2/0y63zppd5j1d40yyj31b3t3w0000gp/T/cabal-tmp-4198/linear-1.19.1.3/dist/dist-sandbox-b0cde968/setup/Main.o )
+Linking /var/folders/c2/0y63zppd5j1d40yyj31b3t3w0000gp/T/cabal-tmp-4198/linear-1.19.1.3/dist/dist-sandbox-b0cde968/setup/setup ...
+Configuring linear-1.19.1.3...
+Building linear-1.19.1.3...
+Preprocessing library linear-1.19.1.3...
+[ 1 of 22] Compiling Linear.Instances ( src/Linear/Instances.hs, dist/dist-sandbox-b0cde968/build/Linear/Instances.o )
+[ 2 of 22] Compiling Linear.Vector    ( src/Linear/Vector.hs, dist/dist-sandbox-b0cde968/build/Linear/Vector.o )
+Loading package ghc-prim ... linking ... done.
+Loading package integer-gmp ... linking ... done.
+Loading package base ... linking ... done.
+Loading package array-0.5.0.0 ... linking ... done.
+Loading package base-orphans-0.4.0 ... linking ... done.
+Loading package deepseq-1.3.0.2 ... linking ... done.
+Loading package bytestring-0.10.4.0 ... linking ... done.
+Loading package containers-0.5.5.1 ... linking ... done.
+Loading package text-1.1.0.0 ... linking ... done.
+Loading package hashable-1.2.2.0 ... linking ... done.
+Loading package nats-1 ... linking ... done.
+Loading package unordered-containers-0.2.4.0 ... linking ... done.
+Loading package semigroups-0.16.2.2 ... linking ... done.
+Loading package pretty-1.1.1.1 ... linking ... done.
+Loading package template-haskell ... linking ... done.
+Loading package tagged-0.8.1 ... linking ... done.
+Loading package bifunctors-5 ... linking ... done.
+Loading package stm-2.4.2 ... linking ... done.
+Loading package transformers-0.4.3.0 ... linking ... done.
+Loading package StateVar-1.1.0.0 ... linking ... done.
+Loading package transformers-compat-0.4.0.4 ... linking ... done.
+Loading package void-0.7 ... linking ... done.
+Loading package contravariant-1.3.1.1 ... linking ... done.
+Loading package distributive-0.4.4 ... linking ... done.
+Loading package comonad-4.2.6 ... linking ... done.
+Loading package mtl-2.2.1 ... linking ... done.
+Loading package exceptions-0.8.0.2 ... linking ... done.
+Loading package filepath-1.3.0.2 ... linking ... done.
+Loading package prelude-extras-0.4 ... linking ... done.
+Loading package profunctors-5.1.1 ... linking ... done.
+Loading package semigroupoids-5.0.0.2 ... linking ... done.
+Loading package free-4.12.1 ... linking ... done.
+Loading package adjunctions-4.2.1 ... linking ... done.
+Loading package kan-extensions-4.2.2 ... linking ... done.
+Loading package parallel-3.2.0.4 ... linking ... done.
+Loading package reflection-2 ... linking ... done.
+Loading package primitive-0.5.2.1 ... linking ... done.
+Loading package vector-0.10.9.1 ... linking ... done.
+Loading package lens-4.12.1 ... linking ... done.
+Loading package binary-0.7.1.0 ... linking ... done.
+Loading package cereal-0.4.1.1 ... linking ... done.
+Loading package old-locale-1.0.0.6 ... linking ... done.
+Loading package time-1.4.2 ... linking ... done.
+Loading package bytes-0.15.0.1 ... linking ... done.
+[ 3 of 22] Compiling Linear.Epsilon   ( src/Linear/Epsilon.hs, dist/dist-sandbox-b0cde968/build/Linear/Epsilon.o )
+[ 4 of 22] Compiling Linear.Metric    ( src/Linear/Metric.hs, dist/dist-sandbox-b0cde968/build/Linear/Metric.o )
+[ 5 of 22] Compiling Linear.V0        ( src/Linear/V0.hs, dist/dist-sandbox-b0cde968/build/Linear/V0.o )
+[ 6 of 22] Compiling Linear.V1        ( src/Linear/V1.hs, dist/dist-sandbox-b0cde968/build/Linear/V1.o )
+[ 7 of 22] Compiling Linear.V2        ( src/Linear/V2.hs, dist/dist-sandbox-b0cde968/build/Linear/V2.o )
+[ 8 of 22] Compiling Linear.V3        ( src/Linear/V3.hs, dist/dist-sandbox-b0cde968/build/Linear/V3.o )
+[ 9 of 22] Compiling Linear.V4        ( src/Linear/V4.hs, dist/dist-sandbox-b0cde968/build/Linear/V4.o )
+[10 of 22] Compiling Linear.Plucker   ( src/Linear/Plucker.hs, dist/dist-sandbox-b0cde968/build/Linear/Plucker.o )
+[11 of 22] Compiling Linear.V         ( src/Linear/V.hs, dist/dist-sandbox-b0cde968/build/Linear/V.o )
+[12 of 22] Compiling Linear.Plucker.Coincides ( src/Linear/Plucker/Coincides.hs, dist/dist-sandbox-b0cde968/build/Linear/Plucker/Coincides.o )
+[13 of 22] Compiling Linear.Conjugate ( src/Linear/Conjugate.hs, dist/dist-sandbox-b0cde968/build/Linear/Conjugate.o )
+[14 of 22] Compiling Linear.Quaternion ( src/Linear/Quaternion.hs, dist/dist-sandbox-b0cde968/build/Linear/Quaternion.o )
+[15 of 22] Compiling Linear.Trace     ( src/Linear/Trace.hs, dist/dist-sandbox-b0cde968/build/Linear/Trace.o )
+[16 of 22] Compiling Linear.Matrix    ( src/Linear/Matrix.hs, dist/dist-sandbox-b0cde968/build/Linear/Matrix.o )
+[17 of 22] Compiling Linear.Projection ( src/Linear/Projection.hs, dist/dist-sandbox-b0cde968/build/Linear/Projection.o )
+[18 of 22] Compiling Linear.Affine    ( src/Linear/Affine.hs, dist/dist-sandbox-b0cde968/build/Linear/Affine.o )
+[19 of 22] Compiling Linear.Binary    ( src/Linear/Binary.hs, dist/dist-sandbox-b0cde968/build/Linear/Binary.o )
+[20 of 22] Compiling Linear.Algebra   ( src/Linear/Algebra.hs, dist/dist-sandbox-b0cde968/build/Linear/Algebra.o )
+[21 of 22] Compiling Linear.Covector  ( src/Linear/Covector.hs, dist/dist-sandbox-b0cde968/build/Linear/Covector.o )
+[22 of 22] Compiling Linear           ( src/Linear.hs, dist/dist-sandbox-b0cde968/build/Linear.o )
+In-place registering linear-1.19.1.3...
+Creating package registration file:
+/var/folders/c2/0y63zppd5j1d40yyj31b3t3w0000gp/T/pkgConf-linear-1.19.14198.3
+Installing library in
+/Users/Lucia/GitHub/main/maps/.cabal-sandbox/lib/x86_64-osx-ghc-7.8.3/linear-1.19.1.3
+Registering linear-1.19.1.3...

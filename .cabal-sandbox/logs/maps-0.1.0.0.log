@@ -1,0 +1,291 @@
+Configuring maps-0.1.0.0...
+Building maps-0.1.0.0...
+Preprocessing library maps-0.1.0.0...
+[3 of 5] Compiling Maps.DataType    ( src/Maps/DataType.hs, dist/dist-sandbox-b0cde968/build/Maps/DataType.o )
+
+src/Maps/DataType.hs:96:44: Warning:
+    Fields of ‘EntitySet’ not initialised: c
+    In the first argument of ‘autoContext’, namely
+      ‘EntitySet {v = M.fromList list}’
+    In the expression: autoContext (EntitySet {v = M.fromList list})
+    In an equation for ‘generateDataset’:
+        generateDataset list
+          = autoContext (EntitySet {v = M.fromList list})
+
+src/Maps/DataType.hs:99:48: Warning:
+    Fields of ‘RelationSet’ not initialised: c
+    In the first argument of ‘autoContext’, namely
+      ‘RelationSet {rv = list}’
+    In the expression: autoContext (RelationSet {rv = list})
+    In an equation for ‘generateRelationset’:
+        generateRelationset list = autoContext (RelationSet {rv = list})
+[4 of 5] Compiling DataLoader.CSV   ( src/DataLoader/CSV.hs, dist/dist-sandbox-b0cde968/build/DataLoader/CSV.o )
+[5 of 5] Compiling Maps.Map         ( src/Maps/Map.hs, dist/dist-sandbox-b0cde968/build/Maps/Map.o )
+In-place registering maps-0.1.0.0...
+Preprocessing executable 'maps' for maps-0.1.0.0...
+[3 of 6] Compiling Maps.DataType    ( src/Maps/DataType.hs, dist/dist-sandbox-b0cde968/build/maps/maps-tmp/Maps/DataType.o )
+
+src/Maps/DataType.hs:96:44: Warning:
+    Fields of ‘EntitySet’ not initialised: c
+    In the first argument of ‘autoContext’, namely
+      ‘EntitySet {v = M.fromList list}’
+    In the expression: autoContext (EntitySet {v = M.fromList list})
+    In an equation for ‘generateDataset’:
+        generateDataset list
+          = autoContext (EntitySet {v = M.fromList list})
+
+src/Maps/DataType.hs:99:48: Warning:
+    Fields of ‘RelationSet’ not initialised: c
+    In the first argument of ‘autoContext’, namely
+      ‘RelationSet {rv = list}’
+    In the expression: autoContext (RelationSet {rv = list})
+    In an equation for ‘generateRelationset’:
+        generateRelationset list = autoContext (RelationSet {rv = list})
+
+src/Maps/DataType.hs:122:14: Warning:
+    This binding for ‘size’ shadows the existing binding
+      defined at src/Maps/DataType.hs:75:9
+
+src/Maps/DataType.hs:133:14: Warning:
+    This binding for ‘size’ shadows the existing binding
+      defined at src/Maps/DataType.hs:75:9
+
+src/Maps/DataType.hs:143:14: Warning:
+    This binding for ‘size’ shadows the existing binding
+      defined at src/Maps/DataType.hs:75:9
+
+src/Maps/DataType.hs:170:1: Warning:
+    Top-level binding with no type signature:
+      defNominalContext :: Context
+
+src/Maps/DataType.hs:171:1: Warning:
+    Top-level binding with no type signature:
+      defOrdinalContext :: Context
+
+src/Maps/DataType.hs:172:1: Warning:
+    Top-level binding with no type signature:
+      defRatioContext :: Context
+
+src/Maps/DataType.hs:194:42: Warning:
+    This binding for ‘c’ shadows the existing binding
+      defined at src/Maps/DataType.hs:45:49
+
+src/Maps/DataType.hs:194:45: Warning:
+    This binding for ‘v’ shadows the existing binding
+      defined at src/Maps/DataType.hs:45:29
+
+src/Maps/DataType.hs:199:55: Warning:
+    This binding for ‘v’ shadows the existing binding
+      defined at src/Maps/DataType.hs:45:29
+
+src/Maps/DataType.hs:201:13: Warning: Defined but not used: ‘f’
+
+src/Maps/DataType.hs:206:31: Warning:
+    This binding for ‘values’ shadows the existing binding
+      defined at src/Maps/DataType.hs:50:33
+
+src/Maps/DataType.hs:208:34: Warning:
+    This binding for ‘values’ shadows the existing binding
+      defined at src/Maps/DataType.hs:50:33
+
+src/Maps/DataType.hs:214:45: Warning:
+    This binding for ‘max’ shadows the existing binding
+      imported from ‘Prelude’ at src/Maps/DataType.hs:3:8-20
+      (and originally defined in ‘ghc-prim:GHC.Classes’)
+
+src/Maps/DataType.hs:214:54: Warning:
+    This binding for ‘min’ shadows the existing binding
+      imported from ‘Prelude’ at src/Maps/DataType.hs:3:8-20
+      (and originally defined in ‘ghc-prim:GHC.Classes’)
+
+src/Maps/DataType.hs:221:47: Warning:
+    This binding for ‘max’ shadows the existing binding
+      imported from ‘Prelude’ at src/Maps/DataType.hs:3:8-20
+      (and originally defined in ‘ghc-prim:GHC.Classes’)
+
+src/Maps/DataType.hs:221:55: Warning:
+    This binding for ‘min’ shadows the existing binding
+      imported from ‘Prelude’ at src/Maps/DataType.hs:3:8-20
+      (and originally defined in ‘ghc-prim:GHC.Classes’)
+
+src/Maps/DataType.hs:230:1: Warning:
+    Defined but not used: ‘lookupKolor’
+
+src/Maps/DataType.hs:237:12: Warning:
+    This binding for ‘v’ shadows the existing binding
+      defined at src/Maps/DataType.hs:45:29
+
+src/Maps/DataType.hs:120:9: Warning:
+    Pattern match(es) are non-exhaustive
+    In an equation for ‘hue’:
+        Patterns not matched:
+            OrdinalContext _ _ _ _
+            RatioContext _ _ _
+
+src/Maps/DataType.hs:193:17: Warning:
+    Pattern match(es) are non-exhaustive
+    In an equation for ‘nv’: Patterns not matched: _ Nothing
+
+src/Maps/DataType.hs:197:17: Warning:
+    Pattern match(es) are non-exhaustive
+    In an equation for ‘nv’: Patterns not matched: _ Nothing
+
+src/Maps/DataType.hs:213:1: Warning:
+    Pattern match(es) are non-exhaustive
+    In an equation for ‘scaleRatio’:
+        Patterns not matched:
+            (_, _) (NominalContext _ _) (Just _)
+            (_, _) (OrdinalContext _ _ _ _) (Just _)
+
+src/Maps/DataType.hs:220:1: Warning:
+    Pattern match(es) are non-exhaustive
+    In an equation for ‘scaleOrdinal’:
+        Patterns not matched:
+            (_, _) (NominalContext _ _) (Just _)
+            (_, _) (RatioContext _ _ _) (Just _)
+[4 of 6] Compiling Maps.Map         ( src/Maps/Map.hs, dist/dist-sandbox-b0cde968/build/maps/maps-tmp/Maps/Map.o )
+
+src/Maps/Map.hs:33:46: Warning:
+    This binding for ‘code’ shadows the existing binding
+      imported from ‘Maps.Spatial’ at src/Maps/Map.hs:14:1-19
+
+src/Maps/Map.hs:33:46: Warning: Defined but not used: ‘code’
+
+src/Maps/Map.hs:46:32: Warning:
+    This binding for ‘i’ shadows the existing binding
+      bound at src/Maps/Map.hs:46:6
+
+src/Maps/Map.hs:46:32: Warning: Defined but not used: ‘i’
+
+src/Maps/Map.hs:61:12: Warning:
+    This binding for ‘code’ shadows the existing binding
+      imported from ‘Maps.Spatial’ at src/Maps/Map.hs:14:1-19
+
+src/Maps/Map.hs:62:17: Warning:
+    This binding for ‘value’ shadows the existing binding
+      imported from ‘Diagrams.Prelude’ at src/Maps/Map.hs:18:1-37
+      (and originally defined in ‘diagrams-core-1.3.0.2:Diagrams.Core.Types’)
+
+src/Maps/Map.hs:68:18: Warning:
+    This binding for ‘code’ shadows the existing binding
+      imported from ‘Maps.Spatial’ at src/Maps/Map.hs:14:1-19
+
+src/Maps/Map.hs:69:17: Warning:
+    This binding for ‘value’ shadows the existing binding
+      imported from ‘Diagrams.Prelude’ at src/Maps/Map.hs:18:1-37
+      (and originally defined in ‘diagrams-core-1.3.0.2:Diagrams.Core.Types’)
+
+src/Maps/Map.hs:81:52: Warning: Defined but not used: ‘tree’
+
+src/Maps/Map.hs:85:35: Warning:
+    This binding for ‘p’ shadows the existing binding
+      bound at src/Maps/Map.hs:85:23
+
+src/Maps/Map.hs:86:17: Warning:
+    This binding for ‘arrow’ shadows the existing binding
+      imported from ‘Diagrams.Prelude’ at src/Maps/Map.hs:18:1-37
+      (and originally defined in ‘Diagrams.TwoD.Arrow’)
+
+src/Maps/Map.hs:86:29: Warning:
+    This binding for ‘size’ shadows the existing binding
+      imported from ‘Diagrams.Prelude’ at src/Maps/Map.hs:18:1-37
+      (and originally defined in ‘diagrams-core-1.3.0.2:Diagrams.Core.Envelope’)
+
+src/Maps/Map.hs:87:47: Warning: Defined but not used: ‘record’
+
+src/Maps/Map.hs:92:12: Warning:
+    This binding for ‘size’ shadows the existing binding
+      imported from ‘Diagrams.Prelude’ at src/Maps/Map.hs:18:1-37
+      (and originally defined in ‘diagrams-core-1.3.0.2:Diagrams.Core.Envelope’)
+
+src/Maps/Map.hs:103:1: Warning: Defined but not used: ‘scaleToInt’
+
+src/Maps/Map.hs:103:35: Warning:
+    Defaulting the following constraint(s) to type ‘Double’
+      (RealFrac b0)
+        arising from a use of ‘scale’ at src/Maps/Map.hs:103:35-39
+      (Num b0)
+        arising from a use of ‘fromIntegral’ at src/Maps/Map.hs:103:43-54
+    In the first argument of ‘(.)’, namely ‘scale’
+    In the expression: scale . fromIntegral
+    In the expression: (scale . fromIntegral) value
+
+src/Maps/Map.hs:103:66: Warning:
+    This binding for ‘code’ shadows the existing binding
+      imported from ‘Maps.Spatial’ at src/Maps/Map.hs:14:1-19
+
+src/Maps/Map.hs:103:72: Warning:
+    This binding for ‘value’ shadows the existing binding
+      imported from ‘Diagrams.Prelude’ at src/Maps/Map.hs:18:1-37
+      (and originally defined in ‘diagrams-core-1.3.0.2:Diagrams.Core.Types’)
+
+src/Maps/Map.hs:105:37: Warning:
+    This binding for ‘value’ shadows the existing binding
+      imported from ‘Diagrams.Prelude’ at src/Maps/Map.hs:18:1-37
+      (and originally defined in ‘diagrams-core-1.3.0.2:Diagrams.Core.Types’)
+
+src/Maps/Map.hs:106:17: Warning:
+    This binding for ‘max’ shadows the existing binding
+      imported from ‘Prelude’ at src/Maps/Map.hs:3:8-15
+      (and originally defined in ‘ghc-prim:GHC.Classes’)
+
+src/Maps/Map.hs:107:17: Warning:
+    This binding for ‘min’ shadows the existing binding
+      imported from ‘Prelude’ at src/Maps/Map.hs:3:8-15
+      (and originally defined in ‘ghc-prim:GHC.Classes’)
+
+src/Maps/Map.hs:108:17: Warning:
+    This binding for ‘sc’ shadows the existing binding
+      imported from ‘Diagrams.Prelude’ at src/Maps/Map.hs:18:1-37
+      (and originally defined in ‘Diagrams.ThreeD.Attributes’)
+
+src/Maps/Map.hs:109:17: Warning:
+    This binding for ‘scale’ shadows the existing binding
+      imported from ‘Diagrams.Prelude’ at src/Maps/Map.hs:18:1-37
+      (and originally defined in ‘diagrams-core-1.3.0.2:Diagrams.Core.Transform’)
+[5 of 6] Compiling DataLoader.CSV   ( src/DataLoader/CSV.hs, dist/dist-sandbox-b0cde968/build/maps/maps-tmp/DataLoader/CSV.o )
+
+src/DataLoader/CSV.hs:26:25: Warning:
+    This binding for ‘v’ shadows the existing binding
+      imported from ‘Maps.DataType’ at src/DataLoader/CSV.hs:12:1-20
+      (and originally defined at src/Maps/DataType.hs:45:29)
+
+src/DataLoader/CSV.hs:29:23: Warning: Defined but not used: ‘i’
+
+src/DataLoader/CSV.hs:30:25: Warning:
+    This binding for ‘v’ shadows the existing binding
+      imported from ‘Maps.DataType’ at src/DataLoader/CSV.hs:12:1-20
+      (and originally defined at src/Maps/DataType.hs:45:29)
+
+src/DataLoader/CSV.hs:52:25: Warning:
+    This binding for ‘v’ shadows the existing binding
+      imported from ‘Maps.DataType’ at src/DataLoader/CSV.hs:12:1-20
+      (and originally defined at src/Maps/DataType.hs:45:29)
+
+src/DataLoader/CSV.hs:55:49: Warning:
+    This binding for ‘map’ shadows the existing binding
+      imported from ‘Prelude’ at src/DataLoader/CSV.hs:3:8-21
+      (and originally defined in ‘GHC.Base’)
+
+src/DataLoader/CSV.hs:63:13: Warning:
+    This binding for ‘v’ shadows the existing binding
+      imported from ‘Maps.DataType’ at src/DataLoader/CSV.hs:12:1-20
+      (and originally defined at src/Maps/DataType.hs:45:29)
+[6 of 6] Compiling Main             ( src/Main.hs, dist/dist-sandbox-b0cde968/build/maps/maps-tmp/Main.o )
+
+src/Main.hs:13:1: Warning:
+    The qualified import of ‘Data.Vector’ is redundant
+      except perhaps to import instances from ‘Data.Vector’
+    To import instances alone, use: import Data.Vector()
+
+src/Main.hs:14:1: Warning:
+    The qualified import of ‘Data.Csv’ is redundant
+      except perhaps to import instances from ‘Data.Csv’
+    To import instances alone, use: import Data.Csv()
+Linking dist/dist-sandbox-b0cde968/build/maps/maps ...
+Creating package registration file:
+/var/folders/c2/0y63zppd5j1d40yyj31b3t3w0000gp/T/pkgConf-maps-0.1.02789.0
+Installing library in
+/Users/Lucia/GitHub/main/maps/.cabal-sandbox/lib/x86_64-osx-ghc-7.8.3/maps-0.1.0.0
+Installing executable(s) in /Users/Lucia/GitHub/main/maps/.cabal-sandbox/bin
+Registering maps-0.1.0.0...

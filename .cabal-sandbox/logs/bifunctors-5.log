@@ -1,0 +1,21 @@
+Configuring bifunctors-5...
+Building bifunctors-5...
+Preprocessing library bifunctors-5...
+[ 1 of 12] Compiling Data.Bifoldable  ( src/Data/Bifoldable.hs, dist/dist-sandbox-b0cde968/build/Data/Bifoldable.o )
+[ 2 of 12] Compiling Data.Bifunctor   ( old-src/Data/Bifunctor.hs, dist/dist-sandbox-b0cde968/build/Data/Bifunctor.o )
+[ 3 of 12] Compiling Data.Bitraversable ( src/Data/Bitraversable.hs, dist/dist-sandbox-b0cde968/build/Data/Bitraversable.o )
+[ 4 of 12] Compiling Data.Biapplicative ( src/Data/Biapplicative.hs, dist/dist-sandbox-b0cde968/build/Data/Biapplicative.o )
+[ 5 of 12] Compiling Data.Bifunctor.Biff ( src/Data/Bifunctor/Biff.hs, dist/dist-sandbox-b0cde968/build/Data/Bifunctor/Biff.o )
+[ 6 of 12] Compiling Data.Bifunctor.Clown ( src/Data/Bifunctor/Clown.hs, dist/dist-sandbox-b0cde968/build/Data/Bifunctor/Clown.o )
+[ 7 of 12] Compiling Data.Bifunctor.Flip ( src/Data/Bifunctor/Flip.hs, dist/dist-sandbox-b0cde968/build/Data/Bifunctor/Flip.o )
+[ 8 of 12] Compiling Data.Bifunctor.Join ( src/Data/Bifunctor/Join.hs, dist/dist-sandbox-b0cde968/build/Data/Bifunctor/Join.o )
+[ 9 of 12] Compiling Data.Bifunctor.Joker ( src/Data/Bifunctor/Joker.hs, dist/dist-sandbox-b0cde968/build/Data/Bifunctor/Joker.o )
+[10 of 12] Compiling Data.Bifunctor.Product ( src/Data/Bifunctor/Product.hs, dist/dist-sandbox-b0cde968/build/Data/Bifunctor/Product.o )
+[11 of 12] Compiling Data.Bifunctor.Tannen ( src/Data/Bifunctor/Tannen.hs, dist/dist-sandbox-b0cde968/build/Data/Bifunctor/Tannen.o )
+[12 of 12] Compiling Data.Bifunctor.Wrapped ( src/Data/Bifunctor/Wrapped.hs, dist/dist-sandbox-b0cde968/build/Data/Bifunctor/Wrapped.o )
+In-place registering bifunctors-5...
+Creating package registration file:
+/var/folders/c2/0y63zppd5j1d40yyj31b3t3w0000gp/T/pkgConf-bifunctors-54198
+Installing library in
+/Users/Lucia/GitHub/main/maps/.cabal-sandbox/lib/x86_64-osx-ghc-7.8.3/bifunctors-5
+Registering bifunctors-5...

@@ -1,0 +1,20 @@
+Configuring cassava-0.4.3.1...
+Building cassava-0.4.3.1...
+Preprocessing library cassava-0.4.3.1...
+[ 1 of 11] Compiling Data.Csv.Compat.Monoid ( Data/Csv/Compat/Monoid.hs, dist/dist-sandbox-b0cde968/build/Data/Csv/Compat/Monoid.o )
+[ 2 of 11] Compiling Data.Csv.Conversion.Internal ( Data/Csv/Conversion/Internal.hs, dist/dist-sandbox-b0cde968/build/Data/Csv/Conversion/Internal.o )
+[ 3 of 11] Compiling Data.Csv.Util    ( Data/Csv/Util.hs, dist/dist-sandbox-b0cde968/build/Data/Csv/Util.o )
+[ 4 of 11] Compiling Data.Csv.Types   ( Data/Csv/Types.hs, dist/dist-sandbox-b0cde968/build/Data/Csv/Types.o )
+[ 5 of 11] Compiling Data.Csv.Parser  ( Data/Csv/Parser.hs, dist/dist-sandbox-b0cde968/build/Data/Csv/Parser.o )
+[ 6 of 11] Compiling Data.Csv.Conversion ( Data/Csv/Conversion.hs, dist/dist-sandbox-b0cde968/build/Data/Csv/Conversion.o )
+[ 7 of 11] Compiling Data.Csv.Encoding ( Data/Csv/Encoding.hs, dist/dist-sandbox-b0cde968/build/Data/Csv/Encoding.o )
+[ 8 of 11] Compiling Data.Csv.Builder ( Data/Csv/Builder.hs, dist/dist-sandbox-b0cde968/build/Data/Csv/Builder.o )
+[ 9 of 11] Compiling Data.Csv.Incremental ( Data/Csv/Incremental.hs, dist/dist-sandbox-b0cde968/build/Data/Csv/Incremental.o )
+[10 of 11] Compiling Data.Csv.Streaming ( Data/Csv/Streaming.hs, dist/dist-sandbox-b0cde968/build/Data/Csv/Streaming.o )
+[11 of 11] Compiling Data.Csv         ( Data/Csv.hs, dist/dist-sandbox-b0cde968/build/Data/Csv.o )
+In-place registering cassava-0.4.3.1...
+Creating package registration file:
+/var/folders/c2/0y63zppd5j1d40yyj31b3t3w0000gp/T/pkgConf-cassava-0.4.312289.1
+Installing library in
+/Users/Lucia/GitHub/main/maps/.cabal-sandbox/lib/x86_64-osx-ghc-7.8.3/cassava-0.4.3.1
+Registering cassava-0.4.3.1...

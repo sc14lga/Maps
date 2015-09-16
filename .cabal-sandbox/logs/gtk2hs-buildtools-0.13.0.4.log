@@ -1,0 +1,58 @@
+Configuring gtk2hs-buildtools-0.13.0.4...
+Building gtk2hs-buildtools-0.13.0.4...
+Preprocessing executable 'gtk2hsTypeGen' for gtk2hs-buildtools-0.13.0.4...
+[1 of 2] Compiling Paths_gtk2hs_buildtools ( dist/dist-sandbox-b0cde968/build/autogen/Paths_gtk2hs_buildtools.hs, dist/dist-sandbox-b0cde968/build/gtk2hsTypeGen/gtk2hsTypeGen-tmp/Paths_gtk2hs_buildtools.o )
+[2 of 2] Compiling Main             ( hierarchyGen/TypeGen.hs, dist/dist-sandbox-b0cde968/build/gtk2hsTypeGen/gtk2hsTypeGen-tmp/Main.o )
+Linking dist/dist-sandbox-b0cde968/build/gtk2hsTypeGen/gtk2hsTypeGen ...
+Preprocessing executable 'gtk2hsHookGenerator' for
+gtk2hs-buildtools-0.13.0.4...
+[1 of 2] Compiling Paths_gtk2hs_buildtools ( dist/dist-sandbox-b0cde968/build/autogen/Paths_gtk2hs_buildtools.hs, dist/dist-sandbox-b0cde968/build/gtk2hsHookGenerator/gtk2hsHookGenerator-tmp/Paths_gtk2hs_buildtools.o )
+[2 of 2] Compiling Main             ( callbackGen/HookGenerator.hs, dist/dist-sandbox-b0cde968/build/gtk2hsHookGenerator/gtk2hsHookGenerator-tmp/Main.o )
+Linking dist/dist-sandbox-b0cde968/build/gtk2hsHookGenerator/gtk2hsHookGenerator ...
+Preprocessing executable 'gtk2hsC2hs' for gtk2hs-buildtools-0.13.0.4...
+[ 1 of 41] Compiling DLists           ( c2hs/base/general/DLists.hs, dist/dist-sandbox-b0cde968/build/gtk2hsC2hs/gtk2hsC2hs-tmp/DLists.o )
+[ 2 of 41] Compiling BaseVersion      ( c2hs/base/admin/BaseVersion.hs, dist/dist-sandbox-b0cde968/build/gtk2hsC2hs/gtk2hsC2hs-tmp/BaseVersion.o )
+[ 3 of 41] Compiling Switches         ( c2hs/state/Switches.hs, dist/dist-sandbox-b0cde968/build/gtk2hsC2hs/gtk2hsC2hs-tmp/Switches.o )
+[ 4 of 41] Compiling Map              ( c2hs/base/general/Map.hs, dist/dist-sandbox-b0cde968/build/gtk2hsC2hs/gtk2hsC2hs-tmp/Map.o )
+[ 5 of 41] Compiling FastMutInt       ( c2hs/base/general/FastMutInt.hs, dist/dist-sandbox-b0cde968/build/gtk2hsC2hs/gtk2hsC2hs-tmp/FastMutInt.o )
+[ 6 of 41] Compiling Config           ( c2hs/base/admin/Config.hs, dist/dist-sandbox-b0cde968/build/gtk2hsC2hs/gtk2hsC2hs-tmp/Config.o )
+[ 7 of 41] Compiling C2HSConfig       ( c2hs/toplevel/C2HSConfig.hs, dist/dist-sandbox-b0cde968/build/gtk2hsC2hs/gtk2hsC2hs-tmp/C2HSConfig.o )
+[ 8 of 41] Compiling CInfo            ( c2hs/gen/CInfo.hs, dist/dist-sandbox-b0cde968/build/gtk2hsC2hs/gtk2hsC2hs-tmp/CInfo.o )
+[ 9 of 41] Compiling Version          ( c2hs/toplevel/Version.hs, dist/dist-sandbox-b0cde968/build/gtk2hsC2hs/gtk2hsC2hs-tmp/Version.o )
+[10 of 41] Compiling Binary           ( c2hs/base/general/Binary.hs, dist/dist-sandbox-b0cde968/build/gtk2hsC2hs/gtk2hsC2hs-tmp/Binary.o )
+[11 of 41] Compiling Position         ( c2hs/base/general/Position.hs, dist/dist-sandbox-b0cde968/build/gtk2hsC2hs/gtk2hsC2hs-tmp/Position.o )
+[12 of 41] Compiling UNames           ( c2hs/base/general/UNames.hs, dist/dist-sandbox-b0cde968/build/gtk2hsC2hs/gtk2hsC2hs-tmp/UNames.o )
+[13 of 41] Compiling Errors           ( c2hs/base/errors/Errors.hs, dist/dist-sandbox-b0cde968/build/gtk2hsC2hs/gtk2hsC2hs-tmp/Errors.o )
+[14 of 41] Compiling Attributes       ( c2hs/base/syms/Attributes.hs, dist/dist-sandbox-b0cde968/build/gtk2hsC2hs/gtk2hsC2hs-tmp/Attributes.o )
+[15 of 41] Compiling Idents           ( c2hs/base/syms/Idents.hs, dist/dist-sandbox-b0cde968/build/gtk2hsC2hs/gtk2hsC2hs-tmp/Idents.o )
+[16 of 41] Compiling CTokens          ( c2hs/c/CTokens.hs, dist/dist-sandbox-b0cde968/build/gtk2hsC2hs/gtk2hsC2hs-tmp/CTokens.o )
+[17 of 41] Compiling CAST             ( c2hs/c/CAST.hs, dist/dist-sandbox-b0cde968/build/gtk2hsC2hs/gtk2hsC2hs-tmp/CAST.o )
+[18 of 41] Compiling CPretty          ( c2hs/c/CPretty.hs, dist/dist-sandbox-b0cde968/build/gtk2hsC2hs/gtk2hsC2hs-tmp/CPretty.o )
+[19 of 41] Compiling Lexers           ( c2hs/base/syntax/Lexers.hs, dist/dist-sandbox-b0cde968/build/gtk2hsC2hs/gtk2hsC2hs-tmp/Lexers.o )
+[20 of 41] Compiling StateTrans       ( c2hs/base/state/StateTrans.hs, dist/dist-sandbox-b0cde968/build/gtk2hsC2hs/gtk2hsC2hs-tmp/StateTrans.o )
+[21 of 41] Compiling StateBase        ( c2hs/base/state/StateBase.hs, dist/dist-sandbox-b0cde968/build/gtk2hsC2hs/gtk2hsC2hs-tmp/StateBase.o )
+[22 of 41] Compiling NameSpaces       ( c2hs/base/syms/NameSpaces.hs, dist/dist-sandbox-b0cde968/build/gtk2hsC2hs/gtk2hsC2hs-tmp/NameSpaces.o )
+[23 of 41] Compiling CAttrs           ( c2hs/c/CAttrs.hs, dist/dist-sandbox-b0cde968/build/gtk2hsC2hs/gtk2hsC2hs-tmp/CAttrs.o )
+[24 of 41] Compiling CBuiltin         ( c2hs/c/CBuiltin.hs, dist/dist-sandbox-b0cde968/build/gtk2hsC2hs/gtk2hsC2hs-tmp/CBuiltin.o )
+[25 of 41] Compiling CParserMonad     ( c2hs/c/CParserMonad.hs, dist/dist-sandbox-b0cde968/build/gtk2hsC2hs/gtk2hsC2hs-tmp/CParserMonad.o )
+[26 of 41] Compiling CLexer           ( dist/dist-sandbox-b0cde968/build/gtk2hsC2hs/gtk2hsC2hs-tmp/CLexer.hs, dist/dist-sandbox-b0cde968/build/gtk2hsC2hs/gtk2hsC2hs-tmp/CLexer.o )
+[27 of 41] Compiling FNameOps         ( c2hs/base/general/FNameOps.hs, dist/dist-sandbox-b0cde968/build/gtk2hsC2hs/gtk2hsC2hs-tmp/FNameOps.o )
+[28 of 41] Compiling FileOps          ( c2hs/base/general/FileOps.hs, dist/dist-sandbox-b0cde968/build/gtk2hsC2hs/gtk2hsC2hs-tmp/FileOps.o )
+[29 of 41] Compiling CIO              ( c2hs/base/state/CIO.hs, dist/dist-sandbox-b0cde968/build/gtk2hsC2hs/gtk2hsC2hs-tmp/CIO.o )
+
+c2hs/base/state/CIO.hs:77:1: Warning:
+    Module ‘System.Cmd’ is deprecated: Use "System.Process" instead
+[30 of 41] Compiling State            ( c2hs/base/state/State.hs, dist/dist-sandbox-b0cde968/build/gtk2hsC2hs/gtk2hsC2hs-tmp/State.o )
+[31 of 41] Compiling C2HSState        ( c2hs/state/C2HSState.hs, dist/dist-sandbox-b0cde968/build/gtk2hsC2hs/gtk2hsC2hs-tmp/C2HSState.o )
+[32 of 41] Compiling CHSLexer         ( c2hs/chs/CHSLexer.hs, dist/dist-sandbox-b0cde968/build/gtk2hsC2hs/gtk2hsC2hs-tmp/CHSLexer.o )
+[33 of 41] Compiling CHS              ( c2hs/chs/CHS.hs, dist/dist-sandbox-b0cde968/build/gtk2hsC2hs/gtk2hsC2hs-tmp/CHS.o )
+[34 of 41] Compiling GenHeader        ( c2hs/gen/GenHeader.hs, dist/dist-sandbox-b0cde968/build/gtk2hsC2hs/gtk2hsC2hs-tmp/GenHeader.o )
+[35 of 41] Compiling CTrav            ( c2hs/c/CTrav.hs, dist/dist-sandbox-b0cde968/build/gtk2hsC2hs/gtk2hsC2hs-tmp/CTrav.o )
+[36 of 41] Compiling CNames           ( c2hs/c/CNames.hs, dist/dist-sandbox-b0cde968/build/gtk2hsC2hs/gtk2hsC2hs-tmp/CNames.o )
+[37 of 41] Compiling CParser          ( dist/dist-sandbox-b0cde968/build/gtk2hsC2hs/gtk2hsC2hs-tmp/CParser.hs, dist/dist-sandbox-b0cde968/build/gtk2hsC2hs/gtk2hsC2hs-tmp/CParser.o )
+[38 of 41] Compiling C                ( c2hs/c/C.hs, dist/dist-sandbox-b0cde968/build/gtk2hsC2hs/gtk2hsC2hs-tmp/C.o )
+[39 of 41] Compiling GBMonad          ( c2hs/gen/GBMonad.hs, dist/dist-sandbox-b0cde968/build/gtk2hsC2hs/gtk2hsC2hs-tmp/GBMonad.o )
+[40 of 41] Compiling GenBind          ( c2hs/gen/GenBind.hs, dist/dist-sandbox-b0cde968/build/gtk2hsC2hs/gtk2hsC2hs-tmp/GenBind.o )
+[41 of 41] Compiling Main             ( c2hs/toplevel/Main.hs, dist/dist-sandbox-b0cde968/build/gtk2hsC2hs/gtk2hsC2hs-tmp/Main.o )
+Linking dist/dist-sandbox-b0cde968/build/gtk2hsC2hs/gtk2hsC2hs ...
+Installing executable(s) in /Users/Lucia/GitHub/main/maps/.cabal-sandbox/bin
