@@ -29,6 +29,16 @@ type DiagramList = [RegDiagram]
 type Regions = (SPtree, [Region])
 
 -- | buildDiagram : Symply merges a list of diagrams in absolute positions and generates a resulting composition.
+-- The pattern for building diagrams is the following:
+-- map = buildDiagram $ [printRegions # mapData mapHue dataset # fAll] `from` ($ tree)
+--   Here we can apply all the mapData func data that we want:
+--   buildDiagram $ [printRegions # mapData mapHue ds1 # mapData mapLightless ds2 # fAll] `from` ($ tree)
+-- If we want to map things over another set of regions we add it to the array:
+--   map = buildDiagram $ [printRegions # mapData mapHue ds1 # fSub 1, printRegions # mapData mapLightless ds2 # fSub 2] `from` ($ tree)
+-- If we want to arrows over regions we add them as well to the array:
+--   map = buildDiagram $ [printArrows dsArrows # fSub 1, printRegions # mapData mapLightless ds2 # fSub 2] `from` ($ tree)
+
+
 buildDiagram :: [DiagramList] -> Diagram B
 buildDiagram diagrams = mconcat [ diagram | (code, diagram) <- concat diagrams] # scaleY (-1) # lwL 0.2
 
